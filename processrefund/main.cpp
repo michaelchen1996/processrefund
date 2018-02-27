@@ -335,6 +335,8 @@ int DoPELoad(char *szHostName, char *szMalName)
 	}
 	printf("[+] rolling back the original %s\n", fileFullPath);
 
+
+	WaitForSingleObject(hProcess, INFINITE);
 	CloseHandle(hProcess);
 	CloseHandle(hMalFile);
 	CloseHandle(hTransactedFile);
