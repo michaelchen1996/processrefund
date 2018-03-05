@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "processrefund", "processrefund\processrefund.vcxproj", "{DA9D5E53-6160-4B44-A770-903C8C4C621D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MalExe", "MalExe\MalExe.vcxproj", "{81FCF866-89C7-466B-A52B-3A41A45BC9E0}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ProcessrefundSetup", "ProcessrefundSetup\ProcessrefundSetup.vdproj", "{C99E0597-7D3E-4797-9AD3-7A45221156A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,8 +33,15 @@ Global
 		{81FCF866-89C7-466B-A52B-3A41A45BC9E0}.Release|x64.Build.0 = Release|x64
 		{81FCF866-89C7-466B-A52B-3A41A45BC9E0}.Release|x86.ActiveCfg = Release|Win32
 		{81FCF866-89C7-466B-A52B-3A41A45BC9E0}.Release|x86.Build.0 = Release|Win32
+		{C99E0597-7D3E-4797-9AD3-7A45221156A2}.Debug|x64.ActiveCfg = Debug
+		{C99E0597-7D3E-4797-9AD3-7A45221156A2}.Debug|x86.ActiveCfg = Debug
+		{C99E0597-7D3E-4797-9AD3-7A45221156A2}.Release|x64.ActiveCfg = Release
+		{C99E0597-7D3E-4797-9AD3-7A45221156A2}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92A3B3B5-9728-451F-97A1-9F16345CA569}
 	EndGlobalSection
 EndGlobal
